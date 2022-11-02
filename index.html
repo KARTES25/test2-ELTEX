@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="title" content="Sitename"/>
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom files -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/components.js"></script>
+    <!-- End custom files -->
+</head>
+<body>
+<main class="layout">
+
+    <div class="block-main">
+        <h1 class="block-main__title--main">Выбор цитаты</h1>
+        <h1 class="block-main__title--load">Загрузка цитаты</h1>
+        <h1 class="block-main__title--result">Ваша цитата</h1>
+        <div class="block-main__text block-main__text--main">Нажмиту на кнопку чтобы показать</div>
+        <div class="block-main__text block-main__text--result">Ваша цитата, чтобы увидеть новую, нажмите на кнопку</div>
+        <button class="block-main__btn block-main__btn--main">Показать цитату</button>
+        <button class="block-main__btn block-main__btn--reset">Отмена</button>
+        <div class="block-main__spiner" id="loader">
+            <canvas id="circularLoader" width="90" height="90"></canvas>
+        </div>
+        <div class="block-main__quotation"></div>
+    </div>
+</main>
+
+</body>
+</html>
