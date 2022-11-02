@@ -1,7 +1,7 @@
 # TEST_prj for ELTEX
 
 Для запуска прокта необходим установленный docker
-Подробная инструкци оп установке https://docs.docker.com/engine/install/ubuntu/
+Подробная инструкци по установке https://docs.docker.com/engine/install/ubuntu/
 
 В терминале в корне проекта необходимо ввести команды:
 docker build -t testprj:v1 .
